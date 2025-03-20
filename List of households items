@@ -1,0 +1,8 @@
+List<string> householdItems = new List<string>
+{
+ "Bed"
+ "Sofa"
+ "Table"
+ "Chair"
+ "Lamp"
+}
