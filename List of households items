@@ -1,8 +1,14 @@
-List<string> householdItems = new List<string>
-{
- "Bed"
- "Sofa"
- "Table"
- "Chair"
- "Lamp"
-}
+List<string> items = new List<string>()
+            {
+                "Vacuum Cleaner",
+                "Dishwasher",
+                "Refrigerator",
+                "Washing Machine",
+                "Air Conditioner"
+            };
+
+            Console.WriteLine("Household Items:");
+            foreach (var item in items)
+            {
+                Console.WriteLine(item);
+            }
